@@ -347,6 +347,58 @@ footer{
     color:#374054;
 }
 
+#publications {
+    padding: 50px 15px;
+    text-align: center;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+#publications h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+.publication {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+}
+
+.publication h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0;
+}
+
+.publication p {
+    color: #74808a;
+    font-size: 0.9em;
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
+.publication a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    padding: 5px 25px;
+    border: 1px solid #3498db;
+    border-radius: 30px;
+    transition: .5s ease all;
+}
+
+.publication a:hover {
+    color: #fff;
+    background: #3498db;
+    text-decoration: none;
+}
+
 #education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}#education h2{color:#374054;margin-bottom:50px}.education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}.education-block h3{font-weight:500;float:left;margin:0;color:#374054}.education-block span{color:#74808a;float:right}.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}.education-block p,.education-block ul{margin:0;color:#74808a;font-size:0.9em}.education-block ul{padding:0 0 0 15px}
 
 #projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}#projects h2{color:#374054;margin-bottom:50px}.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}.project-image{float:left}.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}.project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}.project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}.no-image .project-info{position:relative;margin:0;padding:30px 15px;transform:none}#more-projects{display:none}
